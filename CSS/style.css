@@ -1,7 +1,7 @@
 /* Master styles */
 
 body {font-family: Arial, Helvetica, sans-serif}
-h1 {font-family: "merriweather", serif; font-size: 400%; font-weight: 900; letter-spacing: .2em; color:linen;}
+h1 {font-family: "Gill Sans", sans-serif; font-size: 500%; font-weight: 600; letter-spacing: .1em; color:whitesmoke;}
 
 .body { 
     margin: 0px
@@ -94,6 +94,9 @@ button:hover {background-color: rgb(27, 27, 27);}
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
+    background-color:#d7dadd;
+    padding-top: 110px;
+    padding-bottom: 40px;
 }
 .portfolio-item-wrapper {
     position: relative;
@@ -120,7 +123,7 @@ button:hover {background-color: rgb(27, 27, 27);}
 
 .logo-wrapper img {
     width: 50%;
-    margin-bottom: 20px;
+    
 }
 
 .img-text-wrapper .subtitle {
@@ -180,13 +183,21 @@ button:hover {background-color: rgb(27, 27, 27);}
 }
 /* Skills page styles */
 
-h1 {
+.banner-container {
+    width: auto;
+    height: 300px;
+    background-image: url("../images/clark-van-der-beken-Tk0B3Dfkf_4-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: unset;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background: rgb(94,152,173);
-    background: radial-gradient(circle, rgba(94,152,173,1) 44%, rgba(117,197,208,0.9948354341736695) 83%, rgba(153,228,244,1) 97%);
+    justify-content: center;
+    align-content: center;
 }
+
+
 
 .mySkills-Grid-Container {
     display:grid;
@@ -206,7 +217,7 @@ h1 {
    padding-bottom: 4%;
     padding-left: 4%;
     padding-right: 4%;
-    background-color:#558796;
+    background-color:#9ea1a5;
     
 }
 .skills-content {
